@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "alfabattle"
+version = "0.1.0"
+description = ""
+authors = ["nasonov.ivan5 <nasonov.ivan5@wb.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+pandas = "^2.2.3"
+torch = "^2.5.1"
+scikit-learn = "1.5.2"
+numpy = "1.26.1"
+pyarrow = "^18.1.0"
+tqdm = "^4.67.1"
+ipywidgets = "^8.1.5"
+catboost = "^1.2.7"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
